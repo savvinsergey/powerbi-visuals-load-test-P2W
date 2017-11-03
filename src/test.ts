@@ -30,8 +30,7 @@
 
 let config = require('../configuration/embedded-reports-urls.config.json');
 
-const dafaultExistTimeout = 20000,
-    defaultElement = "div.visual";
+const defaultElement = "div.visual";
 
 async function awaitElements(
     elements: any,
@@ -80,7 +79,7 @@ describe("Load test", () => {
             browser
                 .timeouts("script", 60000)
                 .timeouts("implicit", 60000)
-                .timeouts("pageLoad", 60000);
+                .timeouts("page load", 60000);
 
             const elements: any = item.elements || null;
 

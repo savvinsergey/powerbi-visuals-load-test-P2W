@@ -63,7 +63,7 @@ var _this = this;
 /// <reference path="./../node_modules/@types/jasmine/index.d.ts" />
 /// <reference path="./../node_modules/@types/jasmine-jquery/index.d.ts" />
 var config = require('../configuration/embedded-reports-urls.config.json');
-var dafaultExistTimeout = 20000, defaultElement = "div.visual";
+var defaultElement = "div.visual";
 function awaitElements(elements, existTimeout) {
     return __awaiter(this, void 0, void 0, function () {
         var _this = this;
@@ -146,7 +146,7 @@ describe("Load test", function () {
             browser
                 .timeouts("script", 60000)
                 .timeouts("implicit", 60000)
-                .timeouts("pageLoad", 60000);
+                .timeouts("page load", 60000);
             var elements = item.elements || null;
             var urlPromise = browser.url(item.url);
             (function () { return __awaiter(_this, void 0, void 0, function () {
