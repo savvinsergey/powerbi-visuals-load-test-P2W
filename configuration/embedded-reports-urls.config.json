@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Report_1",
+    "elements": [
+      {
+        "await": "svg.donutChart g.slices > *"
+      },
+      {
+        "await": "div.visual-slicer div.slicerBody li.slicerItemContainer > *",
+        "click": "li.slicerItemContainer:first-child div.slicerCheckbox"
+      }
+    ],
+    "url": "https://powerbidogfood.analysis-df.windows.net/view?r=eyJrIjoiNDdkY2UzNTItNmNmNy00M2QwLWJkNjgtMzg1YmZhNDY5NmYyIiwidCI6ImY2ODZkNDI2LThkMTYtNDJkYi04MWI3LWFiNTc4ZTExMGNjZCIsImMiOjEyfQ%3D%3D"
+  }
+]
+
+

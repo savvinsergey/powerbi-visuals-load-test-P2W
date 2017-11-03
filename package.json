@@ -1,0 +1,27 @@
+{
+  "name": "powerbi-visuals-load-tests-P2W",
+  "version": "1.0.0",
+  "description": "Load test for P2W reports",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "lint": "tslint -r \"node_modules/tslint-microsoft-contrib\" \"+(src|test)/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/powerbi-visuals-load-test-P2W"
+  },
+  "author": "Microsoft",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.51",
+    "@types/jasmine-jquery": "^1.5.30",
+    "@types/node": "^8.0.47",
+    "@types/webdriverio": "^4.8.6",
+    "testable-utils": "0.1.2",
+    "tslint": "4.5.1",
+    "tslint-microsoft-contrib": "4.0.1",
+    "typescript": "^2.3.4",
+    "webdriverio": "4.8.0",
+    "wdio-jasmine-framework": "^0.3.2"
+  }
+}
